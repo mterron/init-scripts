@@ -12,7 +12,6 @@ ProtectSystem=full
 ProtectHome=read-only
 CapabilityBoundingSet=CAP_SYSLOG CAP_IPC_LOCK CAP_NET_BIND_SERVICE CAP_NET_BROADCAST
 NoNewPrivileges=yes
-Environment=GOMAXPROCS=4
 ExecStart=/usr/local/bin/consul agent -config-dir=/etc/consul.d/server -ui-dir=/etc/consul.d/webui
 KillSignal=SIGINT
 TimeoutStopSec=60s
