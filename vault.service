@@ -14,7 +14,6 @@ SecureBits=keep-caps
 Capabilities=CAP_IPC_LOCK+ep
 CapabilityBoundingSet=CAP_SYSLOG CAP_IPC_LOCK
 NoNewPrivileges=yes
-Environment=GOMAXPROCS=4
 ExecStart=/usr/local/bin/vault server -config=/etc/vault.d/agent/config.hcl
 KillSignal=SIGINT
 TimeoutStopSec=30s
