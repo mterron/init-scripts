@@ -4,4 +4,4 @@
 * Consul SystemD service file
 * Consul OpenRC init file
 * Vault SystemD service file
-* Vault OpenRC init file
+* ~~Vault OpenRC init file~~
